@@ -9,9 +9,9 @@ linkedList<T>* const start = new linkedList<T>(startValue);
 ```
 
 Please note that, if you use the default constructor to initialize the `start` object, `value` data member of the `linkedList` class will contains unexpected values.
-There is no default value has written for 'value` data member, so if you would like, you can change it to meet your needs.
+There is no default value has written for `value` data member, so if you would like, you can change it to meet your needs.
 
-After initialization of 'start', you can write a loop to add to the sequence of linked objects.
+After initialization of `start`, you can write a loop to add to the sequence of linked objects.
 ```
 linkedList<T>* temp = start;
 int tempValue;
