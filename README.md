@@ -1,4 +1,4 @@
-# linkedList
+no# linkedList
 A class for linked list
 
 First include `"linkedList.h"`.
@@ -26,4 +26,5 @@ Obviously you can think of other ways to add the elements.
 
 Member Functions:
 1. linkedList* setNext(T next)
+
     This function sets the `next` member data of the current instance to the argument `next`, and then returns the `this->next`. 
