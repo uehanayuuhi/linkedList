@@ -37,6 +37,7 @@ Member Functions:
     This function adds a new value to the beginning of the sequence, and returns the pointer of the new beginning.
 
 4. void insert(int index, T value)
+
     This function adds a new value to the sequence, so after insertion, `T value` can be accessable with `int index`.
 
     You can get `invalid_argument` if `index` is less than 0, is equal to 0.
