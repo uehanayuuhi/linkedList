@@ -38,9 +38,13 @@ Member Functions:
 
 4. void insert(int index, T value)
     This function adds a new value to the sequence, so after insertion, `T value` can be accessable with `int index`.
+
     You can get `invalid_argument` if `index` is less than 0, is equal to 0.
+
     This function has a `void` return type, so you can't add a new element to the beginning, since you can't access the pointer to the beginning.
+
     Instead, you should use `push_front` member function.
+
     Note that the function automatically insert enough objects with value as '0', to fulfill the first note about this function.
 
 5. void remove
