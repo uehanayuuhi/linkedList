@@ -40,7 +40,7 @@ Member Functions:
 
     This function adds a new value to the sequence, so after insertion, `T value` can be accessable with `int index`.
 
-    You can get `invalid_argument` if `index` is less than 0, is equal to 0.
+    You can get `invalid_argument` if `index` is less than 0, or is equal to 0.
 
     This function has a `void` return type, so you can't add a new element to the beginning, since you can't access the pointer to the beginning.
 
